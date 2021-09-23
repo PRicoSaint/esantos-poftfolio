@@ -1,18 +1,7 @@
 import React from "react";
-import Header from "./components/Header";
-import Section from "./components/Section";
-import Navbar from "./components/Navbar";
-import Display from "./components/Display";
+import PortfolioContainer from "./components/PortfolioContainer";
 
-function App() {
-  return (
-    <div>
-      <Navbar />
-      <Header />
-      <Section />
-      <Display />
-    </div>
-  );
-}
+const App = () => <PortfolioContainer />;
 
 export default App;
+
