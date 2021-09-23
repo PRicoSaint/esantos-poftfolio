@@ -1,35 +1,38 @@
-import React from 'react';
-import Card from './Card';
+import React from "react";
+import Card from "./Card";
 
 const projects = [
   {
-    name: 'S.W.O.R.D.',
-    description: 'Full stack app that allows the average citizen to make requests for help/assistance and have Super Heros answer the call. S.W.O.R.D. is the work request system of the present, applied to the world of super heros. Instead of waiting for a signal in the sky or a cry for help, a super hero can log in, and look up current missions to complete. Once complete they can update the status, allowing data analysts to better determine future threats or patterns.',
-    stillPNG: './assets/images/S.W.O.R.D.-Still.PNG',
-    movingGIF: './assets/images/S.W.O.R.D..gif',
-    appLink: 'https://frozen-harbor-76666.herokuapp.com/',
-    repoLink: 'https://github.com/PRicoSaint/S.W.O.R.D',
-    tech: 'Javascript, CSS, Handlebars',
+    name: "S.W.O.R.D.",
+    description:
+      "Full stack app that allows the average citizen to make requests for help/assistance and have Super Heros answer the call. S.W.O.R.D. is the work request system of the present, applied to the world of super heros. Instead of waiting for a signal in the sky or a cry for help, a super hero can log in, and look up current missions to complete. Once complete they can update the status, allowing data analysts to better determine future threats or patterns.",
+    stillPNG: "./assets/images/S.W.O.R.D.-Still.PNG",
+    movingGIF: "./assets/images/S.W.O.R.D..gif",
+    appLink: "https://frozen-harbor-76666.herokuapp.com/",
+    repoLink: "https://github.com/PRicoSaint/S.W.O.R.D",
+    tech: "Javascript, CSS, Handlebars",
     id: 1,
   },
   {
-    name: 'Tech Blog',
-    description: 'Sign up and share your thoughts on any ideas tech-related. This is a wordpress style blog where users can create posts and comment on fellow users posts. Delete of a post is also an option.',
-    stillPNG: './assets/images/Tech_Blog-Still.PNG',
-    movingGIF: './assets/images/Tech_Blog.gif',
-    appLink: 'https://guarded-peak-10394.herokuapp.com/',
-    repoLink: 'https://github.com/PRicoSaint/Tech-Blog',
-    tech: 'Javascript, CSS, Handlebars',
+    name: "Tech Blog",
+    description:
+      "Sign up and share your thoughts on any ideas tech-related. This is a wordpress style blog where users can create posts and comment on fellow users posts. Delete of a post is also an option.",
+    stillPNG: "./assets/images/Tech_Blog-Still.PNG",
+    movingGIF: "./assets/images/Tech_Blog.gif",
+    appLink: "https://guarded-peak-10394.herokuapp.com/",
+    repoLink: "https://github.com/PRicoSaint/Tech-Blog",
+    tech: "Javascript, CSS, Handlebars",
     id: 2,
   },
   {
-    name: 'Note Taker',
-    description: 'Take notes and save them to be referenced at a later time. Need to remember to pick up the milk on the way home? This app will help with that.',
-    stillPNG: './assets/images/NoteTaker-Still.PNG',
-    movingGIF: './assets/images/NoteTaker.gif',
-    appLink: 'https://powerful-lake-32811.herokuapp.com/',
-    repoLink: 'https://github.com/PRicoSaint/NoteTaker',
-    tech: 'Javascript, HTML, CSS',
+    name: "Note Taker",
+    description:
+      "Take notes and save them to be referenced at a later time. Need to remember to pick up the milk on the way home? This app will help with that.",
+    stillPNG: "./assets/images/NoteTaker-Still.PNG",
+    movingGIF: "./assets/images/NoteTaker.gif",
+    appLink: "https://powerful-lake-32811.herokuapp.com/",
+    repoLink: "https://github.com/PRicoSaint/NoteTaker",
+    tech: "Javascript, HTML, CSS",
     id: 3,
   },
   // {
@@ -53,23 +56,26 @@ const projects = [
   //   id: 5,
   // },
   {
-    name: 'E-commerce - Back End only',
-    description: 'This app focuses on the back-end and exemplifies a simple e-commerce app using MySQL as its database. It contains tables for products, product tags, categories and tags. Once the server is running, it accepts POST, PUT, and DELETE to make changes to the values in the database.',
-    stillPNG: './assets/images/E-commerce-Still.PNG',
-    movingGIF: './assets/images/E-commerce.gif',
-    appLink: 'https://drive.google.com/file/d/1pZzP5UQ56M6u5jXjln7NJakDqUqZTBIk/view?usp=sharing',
-    repoLink: 'https://github.com/PRicoSaint/E-commerce-app',
-    tech: 'Javascript, HTML, CSS',
+    name: "E-commerce - Back End only",
+    description:
+      "This app focuses on the back-end and exemplifies a simple e-commerce app using MySQL as its database. It contains tables for products, product tags, categories and tags. Once the server is running, it accepts POST, PUT, and DELETE to make changes to the values in the database.",
+    stillPNG: "./assets/images/E-commerce-Still.PNG",
+    movingGIF: "./assets/images/E-commerce.gif",
+    appLink:
+      "https://drive.google.com/file/d/1pZzP5UQ56M6u5jXjln7NJakDqUqZTBIk/view?usp=sharing",
+    repoLink: "https://github.com/PRicoSaint/E-commerce-app",
+    tech: "Javascript, HTML, CSS",
     id: 4,
   },
   {
-    name: 'Food for your Brews',
-    description: 'Search for a beer type such as blonde, dark or IPA and find food that pairs well with it. The recipe will be displayed to make that food!',
-    stillPNG: './assets/images/FoodforBrews-Still.png',
-    movingGIF: './assets/images/FoodforBrews.gif',
-    appLink: 'https://pricosaint.github.io/FoodforyourBrews/',
-    repoLink: 'https://github.com/PRicoSaint/FoodforyourBrews',
-    tech: 'API & Javascript, CSS',
+    name: "Food for your Brews",
+    description:
+      "Search for a beer type such as blonde, dark or IPA and find food that pairs well with it. The recipe will be displayed to make that food!",
+    stillPNG: "./assets/images/FoodforBrews-Still.png",
+    movingGIF: "./assets/images/FoodforBrews.gif",
+    appLink: "https://pricosaint.github.io/FoodforyourBrews/",
+    repoLink: "https://github.com/PRicoSaint/FoodforyourBrews",
+    tech: "API & Javascript, CSS",
     id: 5,
   },
   // {
@@ -83,13 +89,14 @@ const projects = [
   //   id: 8,
   // },
   {
-    name: 'Simple Weather Dashboard',
-    description: 'Check in and see what is expected in the current and upcoming 5 day forecast, by city. Searched Cities are saved for future reference.',
-    stillPNG: './assets/images/WDB-Still.png',
-    movingGIF: './assets/images/WDB.gif',
-    appLink: 'https://pricosaint.github.io/WeatherDashboard/',
-    repoLink: 'https://github.com/PRicoSaint/WeatherDashboard',
-    tech: 'API & Javascript',
+    name: "Simple Weather Dashboard",
+    description:
+      "Check in and see what is expected in the current and upcoming 5 day forecast, by city. Searched Cities are saved for future reference.",
+    stillPNG: "./assets/images/WDB-Still.png",
+    movingGIF: "./assets/images/WDB.gif",
+    appLink: "https://pricosaint.github.io/WeatherDashboard/",
+    repoLink: "https://github.com/PRicoSaint/WeatherDashboard",
+    tech: "API & Javascript",
     id: 6,
   },
   // {
@@ -127,15 +134,24 @@ const projects = [
 export default function Projects() {
   return (
     <div>
-       <div className="album py-5" id="examples">
-          <div className="container">
+      <div className="album py-5" id="examples">
+        <div className="container">
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-           {projects.map((project) => (
-          <Card name={project.name} description={project.description} stillPNG={project.stillPNG} movingGIF={project.movingGIF} appLink={project.appLink} repoLink={project.repoLink} tech={project.tech} key={project.id} />
-        ))}
-    </div>
-    </div>
-    </div>
+            {projects.map((project) => (
+              <Card
+                name={project.name}
+                description={project.description}
+                stillPNG={project.stillPNG}
+                movingGIF={project.movingGIF}
+                appLink={project.appLink}
+                repoLink={project.repoLink}
+                tech={project.tech}
+                key={project.id}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

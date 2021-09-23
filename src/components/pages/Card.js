@@ -6,7 +6,7 @@ export default function Card(props) {
     <div>
   <div className="col">
           <div className="card shadow-sm">
-            <img src={props.stillPNG} data-swap={props.movingGIF}  className="bd-placeholder-img card-img-top playgif" width="100%" height="225" aria-label="Beer and food pairer" preserveAspectRatio="xMidYMid slice" focusable="false"/>
+            <img src={props.stillPNG} data-swap={props.movingGIF}  className="bd-placeholder-img card-img-top playgif" width="100%" height="225" aria-label="Project card" preserveAspectRatio="xMidYMid slice" focusable="false"/>
             <div className="card-body bg-light">
               <h6>{props.name}</h6>
               <p className="card-text">{props.description}</p>
