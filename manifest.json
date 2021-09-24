@@ -1,0 +1,25 @@
+{
+  "short_name": "React App",
+  "name": "E Santos Portfolio",
+  "icons": [
+    {
+      "src": "prsaintlogo.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "prsaintlogo.png",
+      "type": "image/png",
+      "sizes": "150x150"
+    },
+    {
+      "src": "prsaintlogo.png",
+      "type": "image/png",
+      "sizes": "200x200"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
