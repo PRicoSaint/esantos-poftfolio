@@ -47,7 +47,7 @@ This is my portfolio using React as a basis and deployed on Heroku.
     None
 
   ## Website:
-  Github Repository: https://github.com/PRicoSaint/esantos-poftfolio
+  Github Repository: https://github.com/PRicoSaint/esantos-portfolio
 
   Deployed Site here: 
     https://agile-coast-39070.herokuapp.com/
