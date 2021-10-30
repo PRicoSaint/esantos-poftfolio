@@ -10,7 +10,7 @@ import '../styles/Resume.css';
 
 const styles = {
   sectionStyles: {
-    background: 'blue',
+    background: 'light blue',
   },
 };
 
@@ -20,7 +20,7 @@ function Resume() {
   return (
     <section style={styles.sectionStyles} className="section">
       <h2>Resume</h2>
-      <a href="./Resume-EASantos 2021v3.docx" className="text-white"target="_blank"rel="noopener noreferrer">Download</a>
+      <a href="./Resume - EASantos 2021v4.pdf" className="text-white"target="_blank"rel="noopener noreferrer">Download</a>
     <h3>Technologies Used</h3>
       <ul>
             <li>React</li>

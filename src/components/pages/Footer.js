@@ -27,7 +27,8 @@ function Footer() {
       <li className="ms-3"><a className="text-muted" href="https://www.linkedin.com/in/esteban-santos-55b717b0/">LinkedIn</a></li>
       <li className="ms-3"><a className="text-muted" href="https://github.com/PRicoSaint">Github</a></li>
       <li className="ms-3"><a className="text-muted" href="https://facebook.com/esteban.santos.54">Facebook</a></li>
-      <li className="ms-3"><a className="text-muted" href="santosesteban09@gmail.com"target="_blank"rel="noopener noreferrer">Email me directly</a></li>
+      <li className="ms-3">Email me directly:</li>
+      <li className="ms-3"><a className="text-muted" href="mailto:santosesteban09@gmail.com"target="_blank"rel="noopener noreferrer">santosesteban09@gmail.com</a></li>
     </ul>
   </footer>
   );

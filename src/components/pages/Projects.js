@@ -3,6 +3,17 @@ import Card from "./Card";
 
 const projects = [
   {
+    name: "Gear Out!",
+    description:
+      "Full stack app focused on renting and selling of costumes. Need a costume for halloween, convention, or even personal use? No need to buy an expensive high quality costume. Rent one for the single use. Have a bunch of costumes that you aren't using? Rent them out to make some cash on the side.",
+    stillPNG: "./assets/images/Gear-Out-Still.PNG",
+    movingGIF: "./assets/images/Gear-Out.gif",
+    appLink: "https://quiet-garden-76902.herokuapp.com/",
+    repoLink: "https://github.com/PRicoSaint/Gear_Out",
+    tech: "React, Apollo, Graphql, MongoDB",
+    id: 1,
+  },
+  {
     name: "S.W.O.R.D.",
     description:
       "Full stack app that allows the average citizen to make requests for help/assistance and have Super Heros answer the call. S.W.O.R.D. is the work request system of the present, applied to the world of super heros. Instead of waiting for a signal in the sky or a cry for help, a super hero can log in, and look up current missions to complete. Once complete they can update the status, allowing data analysts to better determine future threats or patterns.",
@@ -10,7 +21,7 @@ const projects = [
     movingGIF: "./assets/images/S.W.O.R.D..gif",
     appLink: "https://frozen-harbor-76666.herokuapp.com/",
     repoLink: "https://github.com/PRicoSaint/S.W.O.R.D",
-    tech: "Javascript, CSS, Handlebars",
+    tech: "Javascript, CSS, Handlebars, MySQL",
     id: 1,
   },
   {
@@ -88,17 +99,17 @@ const projects = [
   //   tech: 'HTML & CSS',
   //   id: 8,
   // },
-  {
-    name: "Simple Weather Dashboard",
-    description:
-      "Check in and see what is expected in the current and upcoming 5 day forecast, by city. Searched Cities are saved for future reference.",
-    stillPNG: "./assets/images/WDB-Still.png",
-    movingGIF: "./assets/images/WDB.gif",
-    appLink: "https://pricosaint.github.io/WeatherDashboard/",
-    repoLink: "https://github.com/PRicoSaint/WeatherDashboard",
-    tech: "API & Javascript",
-    id: 6,
-  },
+  // {
+  //   name: "Simple Weather Dashboard",
+  //   description:
+  //     "Check in and see what is expected in the current and upcoming 5 day forecast, by city. Searched Cities are saved for future reference.",
+  //   stillPNG: "./assets/images/WDB-Still.png",
+  //   movingGIF: "./assets/images/WDB.gif",
+  //   appLink: "https://pricosaint.github.io/WeatherDashboard/",
+  //   repoLink: "https://github.com/PRicoSaint/WeatherDashboard",
+  //   tech: "API & Javascript",
+  //   id: 6,
+  // },
   // {
   //   name: 'Work Day Planner/Scheduler',
   //   description: 'Sees a basic scheduler. Time blocks are highlighted according to be past, present and future. Events are saved to local when button clicked.',

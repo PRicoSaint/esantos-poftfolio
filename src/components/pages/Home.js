@@ -22,11 +22,11 @@ function Home() {
       <h2>About Me</h2>
       <img src="./Picture-6.29.jpg" className="pictureme" alt="Pic of myself"/>
       <p>
-      My name is Esteban Santos. My goal is to become a Full stack Developer. 
-            I want to be a part of the whole process of web development. My interests include tabletop miniature games, 
-            painting and building miniatures, building computers, playing RPG’s both computer and pen and paper. 
-            I also am a believer in balance so I workout as much as I can. I have one son and am happily married. 
-            We hope to have one more child.
+      My name is Esteban Santos. I am a Full stack Developer. 
+            I recently graduated from the Southern Methodist University's Full Stack coding bootcamp. We covered various technologies with
+            JavaScript as the main language of focus. From the front-end which dealt with HTML, CSS styling and making fetch requests, to 
+            the back-end where we set up servers that accepted requests and obtained information from databases such as MySQL and MongoDB.
+            It was a great start to the world of the coding and I will be continuing my learning and improving my skills.
       </p>
       <p>
       My previous experience is in the manufacturing sector, specifically the food industry. I was a maintenance engineer 
