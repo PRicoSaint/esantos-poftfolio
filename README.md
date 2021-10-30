@@ -54,7 +54,7 @@ This is my portfolio using React as a basis and deployed on Heroku.
 
   Screenshot:
   
-![E. Santos Portfolio](./React-portfolio-still.jpg)
+![E. Santos Portfolio](./React-portfolio-still.JPG)
 Screenshot will be found here
 
   
