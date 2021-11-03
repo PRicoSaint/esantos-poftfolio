@@ -10,7 +10,7 @@ import '../styles/Home.css';
 
 const styles = {
   sectionStyles: {
-    background: 'blue',
+    background: 'turquoise',
   },
 };
 

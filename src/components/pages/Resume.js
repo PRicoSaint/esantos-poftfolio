@@ -20,7 +20,7 @@ function Resume() {
   return (
     <section style={styles.sectionStyles} className="section">
       <h2>Resume</h2>
-      <a href="./Resume - EASantos 2021v4.pdf" className="text-white"target="_blank"rel="noopener noreferrer">Download</a>
+      <a href="./Resume - EASantos 2021v4.pdf" target="_blank"rel="noopener noreferrer">Download</a>
     <h3>Technologies Used</h3>
       <ul>
             <li>React</li>
@@ -29,7 +29,9 @@ function Resume() {
             <li>HTML</li>         
             <li>CSS</li>         
             <li>MongoDB</li>         
-            <li>MySQL</li>         
+            <li>MySQL</li>
+            <li>Apollo</li>         
+            <li>Graphql</li>         
             <li>Express</li>         
             <li>Inquirer</li>          
           </ul>
