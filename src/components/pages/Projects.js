@@ -1,5 +1,11 @@
 import React from "react";
 import Card from "./Card";
+import '../styles/Projects.css';
+const styles = {
+  sectionStyles: {
+    background: '#bbfdff',
+  },
+};
 
 const projects = [
   {
@@ -22,7 +28,7 @@ const projects = [
     appLink: "https://frozen-harbor-76666.herokuapp.com/",
     repoLink: "https://github.com/PRicoSaint/S.W.O.R.D",
     tech: "Javascript, CSS, Handlebars, MySQL",
-    id: 1,
+    id: 2,
   },
   {
     name: "Tech Blog",
@@ -33,7 +39,7 @@ const projects = [
     appLink: "https://guarded-peak-10394.herokuapp.com/",
     repoLink: "https://github.com/PRicoSaint/Tech-Blog",
     tech: "Javascript, CSS, Handlebars",
-    id: 2,
+    id: 3,
   },
   {
     name: "Note Taker",
@@ -44,7 +50,7 @@ const projects = [
     appLink: "https://powerful-lake-32811.herokuapp.com/",
     repoLink: "https://github.com/PRicoSaint/NoteTaker",
     tech: "Javascript, HTML, CSS",
-    id: 3,
+    id: 4,
   },
   // {
   //   name: 'Team Profile Generator',
@@ -76,7 +82,7 @@ const projects = [
       "https://drive.google.com/file/d/1pZzP5UQ56M6u5jXjln7NJakDqUqZTBIk/view?usp=sharing",
     repoLink: "https://github.com/PRicoSaint/E-commerce-app",
     tech: "Javascript, HTML, CSS",
-    id: 4,
+    id: 5,
   },
   {
     name: "Food for your Brews",
@@ -87,7 +93,7 @@ const projects = [
     appLink: "https://pricosaint.github.io/FoodforyourBrews/",
     repoLink: "https://github.com/PRicoSaint/FoodforyourBrews",
     tech: "API & Javascript, CSS",
-    id: 5,
+    id: 6,
   },
   // {
   //   name: 'Website code Refactor',
@@ -144,8 +150,10 @@ const projects = [
 
 export default function Projects() {
   return (
+    <section style={styles.sectionStyles} className="section">
     <div>
-      <div className="album py-5" id="examples">
+      <div className="album py-5 info" id="examples">
+      <h2>Projects</h2>
         <div className="container">
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             {projects.map((project) => (
@@ -164,5 +172,6 @@ export default function Projects() {
         </div>
       </div>
     </div>
+    </section>
   );
 }

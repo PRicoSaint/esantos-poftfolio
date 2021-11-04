@@ -1,11 +1,11 @@
 .header {
-  background: #b71775;
-  height: 200px;
+  background: #00383a;
+  /* height: 120px; */
 }
 
 .header h1 {
   margin: 0;
-  padding-top: 75px;
+  padding: 50px;
   text-align: center;
   color: white;
   font-size: 3rem;
