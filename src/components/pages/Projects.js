@@ -52,6 +52,26 @@ const projects = [
     tech: "Javascript, HTML, CSS",
     id: 4,
   },
+    {
+    name: 'Work out Tracker',
+    description: 'Input and Track workouts with specific exercises being tracked. Chart the last 7 workouts to see trends and progress.',
+    stillPNG: './assets/images/Workout_tracker.PNG',
+    movingGIF: '',
+    appLink: 'https://stormy-citadel-59650.herokuapp.com/',
+    repoLink: 'https://github.com/PRicoSaint/P.R.SaintExerciseTrackerDeluxe',
+    tech: 'Javascript, HTML, CSS, MongoDB',
+    id: 5,
+  },
+  // {
+  //   name: 'Work out Tracker',
+  //   description: 'Input and Track workouts with specific exercises being tracked. Chart the last 7 workouts to see trends and progress.',
+  //   stillPNG: './assets/images/Workout_tracker.PNG',
+  //   movingGIF: '',
+  //   appLink: 'https://stormy-citadel-59650.herokuapp.com/',
+  //   repoLink: 'https://github.com/PRicoSaint/P.R.SaintExerciseTrackerDeluxe',
+  //   tech: 'Javascript, HTML, CSS, Inquirer',
+  //   id: 7,
+  // },
   // {
   //   name: 'Team Profile Generator',
   //   description: 'Command Line input that generates basic webpage that contains team information. This is used to quickly reference team information after creation, including team name, email and github.',
@@ -72,18 +92,18 @@ const projects = [
   //   tech: 'Javascript, MySQL, Node.js',
   //   id: 5,
   // },
-  {
-    name: "E-commerce - Back End only",
-    description:
-      "This app focuses on the back-end and exemplifies a simple e-commerce app using MySQL as its database. It contains tables for products, product tags, categories and tags. Once the server is running, it accepts POST, PUT, and DELETE to make changes to the values in the database.",
-    stillPNG: "./assets/images/E-commerce-Still.PNG",
-    movingGIF: "./assets/images/E-commerce.gif",
-    appLink:
-      "https://drive.google.com/file/d/1pZzP5UQ56M6u5jXjln7NJakDqUqZTBIk/view?usp=sharing",
-    repoLink: "https://github.com/PRicoSaint/E-commerce-app",
-    tech: "Javascript, HTML, CSS",
-    id: 5,
-  },
+  // {
+  //   name: "E-commerce - Back End only",
+  //   description:
+  //     "This app focuses on the back-end and exemplifies a simple e-commerce app using MySQL as its database. It contains tables for products, product tags, categories and tags. Once the server is running, it accepts POST, PUT, and DELETE to make changes to the values in the database.",
+  //   stillPNG: "./assets/images/E-commerce-Still.PNG",
+  //   movingGIF: "./assets/images/E-commerce.gif",
+  //   appLink:
+  //     "https://drive.google.com/file/d/1pZzP5UQ56M6u5jXjln7NJakDqUqZTBIk/view?usp=sharing",
+  //   repoLink: "https://github.com/PRicoSaint/E-commerce-app",
+  //   tech: "Javascript, HTML, CSS",
+  //   id: 5,
+  // },
   {
     name: "Food for your Brews",
     description:
