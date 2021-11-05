@@ -50,11 +50,11 @@ This is my portfolio using React as a basis and deployed on Heroku.
   Github Repository: https://github.com/PRicoSaint/esantos-portfolio
 
   Deployed Site here: 
-    https://agile-coast-39070.herokuapp.com/
+    https://shrouded-waters-22536.herokuapp.com/
 
   Screenshot:
   
-![E. Santos Portfolio](./React-portfolio-still.JPG)
+![E. Santos Portfolio](./portfolio_screenshot.JPG)
 Screenshot will be found here
 
   
