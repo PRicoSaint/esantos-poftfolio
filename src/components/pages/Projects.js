@@ -12,7 +12,7 @@ const projects = [
     name: "Gear Out!",
     description:
       "Full stack app focused on renting and selling of costumes. Need a costume for halloween, convention, or even personal use? No need to buy an expensive high quality costume. Rent one for the single use. Have a bunch of costumes that you aren't using? Rent them out to make some cash on the side.",
-    stillPNG: "./assets/images/Gear-Out-Still.PNG",
+    stillPNG: "./assets/images/GO.PNG",
     movingGIF: "./assets/images/Gear-Out.gif",
     appLink: "https://quiet-garden-76902.herokuapp.com/",
     repoLink: "https://github.com/PRicoSaint/Gear_Out",
