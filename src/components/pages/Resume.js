@@ -20,7 +20,7 @@ function Resume() {
   return (
     <section style={styles.sectionStyles} className="section">
       <h2>Resume</h2>
-      <a href="./Resume_EASantos_2021v4.pdf" target="_blank"rel="noopener noreferrer">Download</a>
+      <a href="./Resume_EASantos_2021v5.pdf" target="_blank"rel="noopener noreferrer">Download</a>
     <h3>Technologies Used</h3>
       <ul>
             <li>React</li>
